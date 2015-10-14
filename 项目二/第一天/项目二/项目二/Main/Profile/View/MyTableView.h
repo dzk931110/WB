@@ -15,17 +15,12 @@
 {
     //头视图
     UIView *_headView;
-
     //用户视图
     MyView *_myView;
-    
-    
 }
 
 @property (nonatomic, strong) MyModel *myModel;
 @property (nonatomic, strong) NSArray *dataArray;
 @property (nonatomic, strong) NSDictionary *dic;
-
-
 
 @end

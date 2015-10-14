@@ -1,15 +1,16 @@
 //
-//  Tools.m
-//  项目二
+//  Utils.m
+//  HWWeibo
 //
-//  Created by mac on 15/9/16.
-//  Copyright (c) 2015年 dzk. All rights reserved.
+//  Created by gj on 15/8/24.
+//  Copyright (c) 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
 //
 
-#import "Tools.h"
+#import "Utils.h"
 #import "RegexKitLite.h"
 
-@implementation Tools
+@implementation Utils
+
 + (NSDate *)dateFromString:(NSString *)dateString withFormatterStr:(NSString *)formatterStr{
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
@@ -27,16 +28,16 @@
     [formatter setDateFormat:formatterStr];
     NSString *dateString = [formatter stringFromDate:date];
     return  dateString;
-    
+
     
 }
 
 + (NSString *)weiboDateString:(NSString *)string{
     
-    NSString *formatterStr = @"E MMM dd HH:mm:ss Z yyyy";
-    NSDate *date = [Tools dateFromString:string withFormatterStr:formatterStr];
+     NSString *formatterStr = @"E MMM dd HH:mm:ss Z yyyy";
+    NSDate *date = [Utils dateFromString:string withFormatterStr:formatterStr];
     
-    NSString *dateString = [Tools stringFromDate:date withFormmaterStr:@"MM-dd HH:mm"];
+    NSString *dateString = [Utils stringFromDate:date withFormmaterStr:@"MM-dd HH:mm"];
     return dateString;
     
     
@@ -82,5 +83,7 @@
     
     return text;
 }
+
+
 
 @end

@@ -134,7 +134,6 @@
     NSString *lat = [NSString stringWithFormat:@"%f",coordinate.latitude];
     [self loadNearByPoisWithLon:lon Lat:lat];
     
-    
     //设置center
     CLLocationCoordinate2D center = coordinate;
     //设置span,数值越小，经度越高，范围越小

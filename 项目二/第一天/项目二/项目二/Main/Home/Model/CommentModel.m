@@ -7,7 +7,7 @@
 //
 
 #import "CommentModel.h"
-#import "Tools.h"
+#import "Utils.h"
 
 
 @implementation CommentModel
@@ -32,7 +32,7 @@
         self.sourceComment = sourceComment;
     }
     //处理评论中的表情
-    self.text =[Tools parseTextImage:_text];
+    self.text =[Utils parseTextImage:_text];
 }
 
 @end

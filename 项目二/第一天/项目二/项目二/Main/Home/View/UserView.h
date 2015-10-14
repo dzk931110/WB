@@ -14,6 +14,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *sourceLabel;
 
-
 @property (nonatomic,strong)WeiboModel *weiboModel;
 @end

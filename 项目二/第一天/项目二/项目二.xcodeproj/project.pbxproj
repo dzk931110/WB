@@ -406,13 +406,13 @@
 		0450BE8B1BAA0169008F5586 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0450BE891BAA0169008F5586 /* CommentCell.xib */; };
 		0450BE8E1BAA03BB008F5586 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450BE8D1BAA03BB008F5586 /* CommentModel.m */; };
 		0450BE911BAA0D76008F5586 /* ZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450BE901BAA0D76008F5586 /* ZoomImageView.m */; };
-		0450BE941BAA1782008F5586 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450BE931BAA1782008F5586 /* Tools.m */; };
 		046481381BB0653E00A1D13E /* NearByController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046481371BB0653E00A1D13E /* NearByController.m */; };
 		046738861B9F820E007DA750 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046738851B9F820E007DA750 /* ThemeManager.m */; };
 		0467388C1B9F8DC7007DA750 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0467388B1B9F8DC7007DA750 /* theme.plist */; };
 		0467388F1B9F9212007DA750 /* ThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467388E1B9F9212007DA750 /* ThemeButton.m */; };
 		046738921B9FA12A007DA750 /* ThemeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046738911B9FA12A007DA750 /* ThemeImageView.m */; };
 		046738941B9FA7D2007DA750 /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 046738931B9FA7D2007DA750 /* Skins */; };
+		046F008E1BC0CC83006CEEF7 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F008D1BC0CC83006CEEF7 /* Utils.m */; };
 		048EAFBD1BA8BFA5002CD277 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EAFBC1BA8BFA5002CD277 /* MBProgressHUD.m */; };
 		048EAFBF1BA8C605002CD277 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 048EAFBE1BA8C605002CD277 /* 37x-Checkmark.png */; };
 		048EAFC21BA9B8C2002CD277 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EAFC11BA9B8C2002CD277 /* UIView+ViewController.m */; };
@@ -426,6 +426,8 @@
 		049AF2B81BA0E6B900F4ECF3 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF2B71BA0E6B900F4ECF3 /* MMExampleDrawerVisualStateManager.m */; };
 		04A8545D1BAB43E300679236 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A8545C1BAB43E300679236 /* DataService.m */; };
 		04A854B71BAB773A00679236 /* SendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A854B61BAB773A00679236 /* SendViewController.m */; };
+		04ABE6EE1BC38D5F003479A1 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABE6ED1BC38D5F003479A1 /* FriendViewController.m */; };
+		04ABE6F11BC38D69003479A1 /* FollowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABE6F01BC38D69003479A1 /* FollowerViewController.m */; };
 		04B60DE01B9E487A00A7B0B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B60DDF1B9E487A00A7B0B2 /* main.m */; };
 		04B60DE31B9E487A00A7B0B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B60DE21B9E487A00A7B0B2 /* AppDelegate.m */; };
 		04B60DE61B9E487A00A7B0B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B60DE51B9E487A00A7B0B2 /* ViewController.m */; };
@@ -943,8 +945,6 @@
 		0450BE8D1BAA03BB008F5586 /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
 		0450BE8F1BAA0D76008F5586 /* ZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomImageView.h; sourceTree = "<group>"; };
 		0450BE901BAA0D76008F5586 /* ZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImageView.m; sourceTree = "<group>"; };
-		0450BE921BAA1782008F5586 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
-		0450BE931BAA1782008F5586 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		046481361BB0653E00A1D13E /* NearByController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByController.h; sourceTree = "<group>"; };
 		046481371BB0653E00A1D13E /* NearByController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByController.m; sourceTree = "<group>"; };
 		046738841B9F820E007DA750 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
@@ -955,6 +955,8 @@
 		046738901B9FA12A007DA750 /* ThemeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeImageView.h; sourceTree = "<group>"; };
 		046738911B9FA12A007DA750 /* ThemeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeImageView.m; sourceTree = "<group>"; };
 		046738931B9FA7D2007DA750 /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
+		046F008C1BC0CC83006CEEF7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		046F008D1BC0CC83006CEEF7 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		048EAFBB1BA8BFA5002CD277 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		048EAFBC1BA8BFA5002CD277 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		048EAFBE1BA8C605002CD277 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
@@ -980,6 +982,10 @@
 		04A8545C1BAB43E300679236 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
 		04A854B51BAB773A00679236 /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
 		04A854B61BAB773A00679236 /* SendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendViewController.m; sourceTree = "<group>"; };
+		04ABE6EC1BC38D5F003479A1 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		04ABE6ED1BC38D5F003479A1 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		04ABE6EF1BC38D69003479A1 /* FollowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerViewController.h; sourceTree = "<group>"; };
+		04ABE6F01BC38D69003479A1 /* FollowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerViewController.m; sourceTree = "<group>"; };
 		04B60DDA1B9E487A00A7B0B2 /* 项目二.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目二.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B60DDE1B9E487A00A7B0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B60DDF1B9E487A00A7B0B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1913,6 +1919,10 @@
 			children = (
 				04B60E271B9E48BD00A7B0B2 /* ProfileViewController.h */,
 				04B60E281B9E48BD00A7B0B2 /* ProfileViewController.m */,
+				04ABE6EC1BC38D5F003479A1 /* FriendViewController.h */,
+				04ABE6ED1BC38D5F003479A1 /* FriendViewController.m */,
+				04ABE6EF1BC38D69003479A1 /* FollowerViewController.h */,
+				04ABE6F01BC38D69003479A1 /* FollowerViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1957,8 +1967,8 @@
 				04B60E3C1B9E48EF00A7B0B2 /* Common.h */,
 				048EAFC01BA9B8C2002CD277 /* UIView+ViewController.h */,
 				048EAFC11BA9B8C2002CD277 /* UIView+ViewController.m */,
-				0450BE921BAA1782008F5586 /* Tools.h */,
-				0450BE931BAA1782008F5586 /* Tools.m */,
+				046F008C1BC0CC83006CEEF7 /* Utils.h */,
+				046F008D1BC0CC83006CEEF7 /* Utils.m */,
 				04A8545B1BAB43E300679236 /* DataService.h */,
 				04A8545C1BAB43E300679236 /* DataService.m */,
 				04D4810E1BA3759000973107 /* SDWebImage */,
@@ -2538,6 +2548,7 @@
 				040AEBB31BA7889600179401 /* MJRefreshAutoGifFooter.m in Sources */,
 				04B60E2D1B9E48BD00A7B0B2 /* BaseViewController.m in Sources */,
 				04DB93F91BB0A2D600177D09 /* UIWebView+AFNetworking.m in Sources */,
+				046F008E1BC0CC83006CEEF7 /* Utils.m in Sources */,
 				040AEBBA1BA7889600179401 /* MJRefreshNormalHeader.m in Sources */,
 				043D33F81BA34843007901EA /* WeiboView.m in Sources */,
 				04B60DE31B9E487A00A7B0B2 /* AppDelegate.m in Sources */,
@@ -2596,10 +2607,10 @@
 				049AF2AB1BA0E41D00F4ECF3 /* MMDrawerVisualState.m in Sources */,
 				0450BE811BA9EB61008F5586 /* CommentTableView.m in Sources */,
 				049AF2A91BA0E41D00F4ECF3 /* MMDrawerBarButtonItem.m in Sources */,
+				04ABE6F11BC38D69003479A1 /* FollowerViewController.m in Sources */,
 				049AF2AA1BA0E41D00F4ECF3 /* MMDrawerController.m in Sources */,
 				04D4813C1BA3759000973107 /* UIImage+WebP.m in Sources */,
 				0418CE141BB0FA6800794A9B /* MyTableView.m in Sources */,
-				0450BE941BAA1782008F5586 /* Tools.m in Sources */,
 				040AEBBB1BA7889600179401 /* MJRefreshStateHeader.m in Sources */,
 				049AF2B81BA0E6B900F4ECF3 /* MMExampleDrawerVisualStateManager.m in Sources */,
 				04DB93F41BB0A2D600177D09 /* UIAlertView+AFNetworking.m in Sources */,
@@ -2607,6 +2618,7 @@
 				04D481381BA3759000973107 /* SDWebImagePrefetcher.m in Sources */,
 				04DB93D61BB0A2CF00177D09 /* AFHTTPRequestOperation.m in Sources */,
 				040AEBBD1BA7889600179401 /* MJRefreshConst.m in Sources */,
+				04ABE6EE1BC38D5F003479A1 /* FriendViewController.m in Sources */,
 				040AEBB61BA7889600179401 /* MJRefreshBackGifFooter.m in Sources */,
 				04D4813B1BA3759000973107 /* UIImage+MultiFormat.m in Sources */,
 				04D481331BA3759000973107 /* SDWebImageCompat.m in Sources */,
@@ -2756,6 +2768,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/项目二/PrefixHeader.pch";
 				INFOPLIST_FILE = "项目二/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2768,6 +2781,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/项目二/PrefixHeader.pch";
 				INFOPLIST_FILE = "项目二/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

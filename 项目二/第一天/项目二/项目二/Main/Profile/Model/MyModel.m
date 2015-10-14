@@ -10,18 +10,6 @@
 #import "RegexKitLite.h"
 
 @implementation MyModel
-- (NSDictionary*)attributeMapDictionary{
-    
-    //   @"属性名": @"数据字典的key"
-    NSDictionary *mapAtt = @{
-                             @"date":@"created_at",
-                             @"resend":@"reposts_count",
-                             @"comment":@"comments_count",
-                             @"source":@"source",
-                             @"text":@"text",
-                             };
-    return mapAtt;
-}
 
 - (void) setAttributes:(NSDictionary *)dataDic {
     [super setAttributes:dataDic];

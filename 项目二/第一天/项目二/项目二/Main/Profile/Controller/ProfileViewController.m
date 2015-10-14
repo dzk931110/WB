@@ -34,12 +34,13 @@
     [self.view addSubview:_tableView];
     
     
-    _tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(_loadMoreData)];
+    _tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+ 
 }
 - (void)_loadData {
 
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    [params setObject:@"10" forKey:@"count"];
+//    [params setObject:@"10" forKey:@"count"];
     
     SinaWeibo *sinaWeibo = [self sinaWeibo];
     
@@ -47,18 +48,14 @@
     _request.tag = 101;
 }
 //加载更多数据
-- (void)_loadMoreData{
+- (void)loadMoreData{
 
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    [params setObject:@"20" forKey:@"count"];
-
-    //设置max_id 分页加载
-//    UserModel *userModel = [self.data lastObject];
-//    if (userModel == nil) {
-//        return;
-//    }
-//    NSString *lastID = userModel.idstr;
-//    [params setObject:lastID forKey:@"max_id"];
+//    MyModel *weiboModel = [[MyModel alloc] init];
+//    weiboModel = [_data lastObject];
+//    NSString *weiboid = weiboModel.weiboIdStr;
+//    
+//    [params setObject:weiboid forKey:@"max_id"];
     
     SinaWeibo *sinaWeibo = [self sinaWeibo];
     _request =  [sinaWeibo requestWithURL:user_timeline params:params httpMethod:@"GET" delegate:self];
@@ -100,7 +97,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 /*
 #pragma mark - Navigation
