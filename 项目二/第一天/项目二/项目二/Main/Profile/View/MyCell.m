@@ -61,10 +61,10 @@
     
     _wxLabel.text = _myModel.text;
     
-    if (_myModel.thumbnail_pic != nil) {
-        [_myImageView sd_setImageWithURL:[NSURL URLWithString:_myModel.thumbnail_pic]];
-        _myImageView.frame = CGRectMake(_cellImageView.right+65, _cellName.bottom+10, 60, 60);
-    }
+//    if (_myModel.thumbnail_pic != nil) {
+//        [_myImageView sd_setImageWithURL:[NSURL URLWithString:_myModel.thumbnail_pic]];
+//        _myImageView.frame = CGRectMake(_cellImageView.right+65, _cellName.bottom+10, 60, 60);
+//    }
     
     //转发数
     _cellSend.text = [NSString stringWithFormat:@"%@",_myModel.reposts_count];
